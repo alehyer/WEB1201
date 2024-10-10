@@ -1,0 +1,51 @@
+:root {
+    --darkPurple: #191970;
+    --purple: #AEAED4;
+    --lightPurple: #E6E6FA;
+
+}
+
+body {
+    background-color: var(--lightPurple);
+    color: var(--darkPurple);
+    font-family: Arial, Verdana, sans-serif;
+}
+
+h1 {
+    background-color: var(--darkPurple);
+    color: var(--lightPurple);
+    line-height: 200%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px 4px #CCCCCC;
+}
+
+h2 {
+    background-color: var(--purple);
+    color: var(--darkPurple);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+p {
+    font-size: 1rem;
+    text-indent: 3rem;
+}
+
+ul li{
+    font-weight: bold;
+}
+
+.nav {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.feature {
+    color: #C70000;
+}
+
+.footer {
+    color: #333333;
+    font-size: 0.75rem;
+    font-style: italic;
+}
